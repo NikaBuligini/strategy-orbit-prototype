@@ -4,7 +4,9 @@
   "description": "simple prototype of StrategyOrbit game",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
     "electron-prebuilt": "^1.2.3",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "electron-json-storage": "^2.0.0",
+    "electron-shortcut-normalizer": "^1.0.0",
+    "sqlite3": "^3.1.4"
   }
 }

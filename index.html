@@ -5,6 +5,7 @@
 
     <link rel="stylesheet" href="assets/css/main.css">
 
+    <link rel="import" href="sections/core/core.html">
     <link rel="import" href="sections/menus/menus.html">
 
     <title>Strategy Orbit Prototype</title>
@@ -19,6 +20,8 @@
 
     <script>
       require('./assets/imports')
+      require('./assets/ex-links')
+      require('./assets/normalize-shortcuts')
       
       document.addEventListener("keypress", function(e) {
         console.log(e)
