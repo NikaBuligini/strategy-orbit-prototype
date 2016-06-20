@@ -38,3 +38,4 @@ jspm_packages
 
 # css is not needed, we have scss
 *.css
+*.sqlite
