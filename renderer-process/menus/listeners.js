@@ -24,8 +24,8 @@ parametersBtn.addEventListener('click', function () {
 
 const exitBtn = document.getElementById('exit')
 exitBtn.addEventListener('click', function () {
-  console.log(electron);
-  console.log(app);
-  
-  app.quit();
+  console.log(electron)
+  console.log(app)
+
+  app.quit()
 })
